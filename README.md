@@ -4,12 +4,12 @@
 I couldn't get go get to accept my fork so this is a separate repo :(
 
 [![Go Doc](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/RinLovesYou/imgui-go/v2)
-[![Go Report Card](https://goreportcard.com/badge/github.com/RinLovesYou/imgui-go)](https://goreportcard.com/report/github.com/RinLovesYou/imgui-go)
+[![Go Report Card](https://goreportcard.com/badge/github.com/inkyblackness/imgui-go)](https://goreportcard.com/report/github.com/RinLovesYou/imgui-go)
 [![Lint Status](https://github.com/RinLovesYou/imgui-go/workflows/golangci-lint/badge.svg)](https://github.com/RinLovesYou/imgui-go/actions)
 
 This library is a [Go](https://www.golang.org) wrapper for **[Dear ImGui](https://github.com/ocornut/imgui)**.
 
-This wrapper started as a special-purpose wrapper for use within RinLovesYou.
+This wrapper started as a special-purpose wrapper for use within inkyblackness.
 However, it is self-contained and can be used for other purposes as well.
 
 This wrapper is
@@ -50,7 +50,7 @@ At the moment, this library uses version [1.85](https://github.com/ocornut/imgui
 
 ## Examples
 A separate repository was created to host ported examples and reference implementations.
-See repository [RinLovesYou/imgui-go-examples](https://github.com/RinLovesYou/imgui-go-examples).
+See repository [RinLovesYou/imgui-go-examples](https://github.com/inkyblackness/imgui-go-examples).
 
 It contains reference implementations for libraries such as [GLFW3](https://github.com/go-gl/glfw) and [SDL2](https://github.com/veandco/go-sdl2), using [OpenGL](https://github.com/go-gl/gl).
 
