@@ -1,5 +1,8 @@
 # Dear ImGui for Go
 
+## THIS IS A FORK OF [INKYBLACKNESS' WRAPPER](https://github.com/inkyblackness/imgui-go)
+I couldn't get go get to accept my fork :(
+
 [![Go Doc](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/RinLovesYou/imgui-go/v2)
 [![Go Report Card](https://goreportcard.com/badge/github.com/RinLovesYou/imgui-go)](https://goreportcard.com/report/github.com/RinLovesYou/imgui-go)
 [![Lint Status](https://github.com/RinLovesYou/imgui-go/workflows/golangci-lint/badge.svg)](https://github.com/RinLovesYou/imgui-go/actions)
