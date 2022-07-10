@@ -19,5 +19,13 @@ void iggWin32NewFrame()
 
 IggBool iggWin32WndProcHandler(void* hwnd, unsigned int msg, void* wparam, void* lparam)
 {
-    return FAILED(ImGui_ImplWin32_WndProcHandler((HWND)hwnd, (UINT)msg, *reinterpret_cast<WPARAM*>(wparam), *reinterpret_cast<LPARAM*>(lparam))) ? 0 : 1;
+    WPARAM wp;
+    if (wparam)
+        wp = *reinterpret_cast<WPARAM*>(wparam);
+
+    LPARAM lp;
+    if (lparam)
+        lp = *reinterpret_cast<LPARAM*>(lparam);
+
+    return FAILED(ImGui_ImplWin32_WndProcHandler((HWND)hwnd, (UINT)msg, wp, lp) ? 0 : 1;
 }
