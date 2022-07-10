@@ -27,5 +27,5 @@ IggBool iggWin32WndProcHandler(void* hwnd, unsigned int msg, void* wparam, void*
     if (lparam)
         lp = *reinterpret_cast<LPARAM*>(lparam);
 
-    return FAILED(ImGui_ImplWin32_WndProcHandler((HWND)hwnd, (UINT)msg, wp, lp) ? 0 : 1;
+    return FAILED(ImGui_ImplWin32_WndProcHandler((HWND)hwnd, (UINT)msg, wp, lp)) ? 0 : 1;
 }
