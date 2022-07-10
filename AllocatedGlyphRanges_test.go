@@ -5,7 +5,7 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/RinLovesYou/imgui-go/v4"
+	"github.com/RinLovesYou/imgui-go"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
