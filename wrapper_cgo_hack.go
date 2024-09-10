@@ -15,7 +15,7 @@ package imgui
 
 import (
 	// Prevent go tooling from stripping out the c source files.
-	_ "github.com/RinLovesYou/imgui-go/imgui"
-	_ "github.com/RinLovesYou/imgui-go/imgui/misc/freetype"
-	_ "github.com/RinLovesYou/imgui-go/wrapper"
+	_ "github.com/inkyblackness/imgui-go/imgui"
+	_ "github.com/inkyblackness/imgui-go/imgui/misc/freetype"
+	_ "github.com/inkyblackness/imgui-go/wrapper"
 )
