@@ -3,7 +3,7 @@
 // Setup
 //
 // For integration, please refer to the dedicated repository
-// https://github.com/RinLovesYou/imgui-go-examples ,
+// https://github.com/inkyblackness/imgui-go-examples ,
 // which contains ported examples of the C++ version, available to Go.
 //
 // Conventions
