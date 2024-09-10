@@ -1,4 +1,4 @@
-module github.com/RinLovesYou/imgui-go
+module github.com/inkyblackness/imgui-go
 
 go 1.18
 
